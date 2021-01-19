@@ -3,21 +3,24 @@
 <head>
 <meta charset="ISO-8859-1">
 	<title>Contact Form</title>
-
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
 	<div class="contact-title">
+        <h1>Hello World</h1>
+		<h2>Welcome to TechPage.com</h2>
+		<!--div class="img-cls">-->
+		</div>    
+        
+      <div class="contact-form">
+		<img class="img-cls" src="img/TechPage.jpg" alt="">
 		<form id="contact-form"method="post" action="phpfile.php">
-		<input name="name" type="text" class="form-control" placeholder="your Name" required>
+		<input name="name" type="text" class="form-control" placeholder="your Full Name" required>
 		<br>
 		<input name="email" type="email" class="form-control" placeholder="your Email" required>
 		<br>
-		<input name="city" type="text" class="form-control" placeholder="your City" required>
-		<br>
-		<input name="state" type="text" class="form-control" placeholder="your State" required>
-		<br>
-			<textarea name="message" class="form-control" placeholder="Enter your Query here" row="5" required></textarea>	
+			<textarea name="message" class="form-control" placeholder="ENTER your query here and contact us" row="4" required></textarea>	
 			<br>
 
 			<input type="submit" class="form-control submit" value="SEND MESSAGE">
