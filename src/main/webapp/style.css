@@ -18,13 +18,13 @@ body{
 }
 
 .contact-title h1{
-    font-size: 20px;
+    font-size: 24px;
     color: #f44336;
     line-height: 10px;
 }
 
 .contact-title h2{
-    font-size: 24px;
+    font-size: 20px;
     color: blueviolet;
 }
 
@@ -41,14 +41,14 @@ form
     border: none;
     outline: none;
     border-bottom: 1px solid gray;
-    color: #fff;
+    color: black;
     font-size: 18px;
     margin-bottom: 16px;
     
 }
 .img-cls {
-    width: 250px;
-    height: 125px;
+    width: 275px;
+    height: 135px;
     background-image: url(img/TechPage.jpg);
     background-size: cover;
     background-position: center;
